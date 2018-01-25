@@ -1,0 +1,85 @@
+body {
+
+}
+
+header {
+background-image: url('images/bg-header-01.jpg');
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+}
+h1{font-family: 'Oswald', sans-serif;}
+h2 {font-family: 'Oswald', sans-serif;}
+section {
+
+}
+.header-content-block { font-family: 'Playfair Display', serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+}
+.section-content {background-color: #FFFFFF;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+
+
+#bio {font-family: 'Oswald', sans-serif;
+
+
+
+}
+.bio-content-block {font-family: 'Playfair Display', serif;
+column-count: 2;
+text-align: justify;
+justify-content: space-around;
+margin-top: auto;
+position: relative;
+
+}
+
+
+#comp {font-family: 'Oswald', sans-serif;
+
+
+}
+.comp-content {font-family: 'Playfair Display', serif;
+text-align: justify;
+padding: 1em;
+max-width: 320px;
+
+}
+#portfolio
+{font-family: 'Oswald', sans-serif;
+display: flex;
+padding: 1em;
+
+text-align: justify;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.portfolio-content {font-family: 'Playfair Display', serif;
+
+
+
+}
+
+footer {font-family: 'Oswald', sans-serif;
+background: #ffffff;
+border: 1em;
+color: #000000 ;
+
+padding: 1em
+}
+.adress {align-items:flex-start;}
+.span{align-items: flex-end;}
