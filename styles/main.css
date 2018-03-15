@@ -1,6 +1,9 @@
-body {
 
-}
+
+body{ background-color:
+  #absolute }
+
+
 
 header {
 background-image: url('images/bg-header-01.jpg');
@@ -83,3 +86,19 @@ padding: 1em
 }
 .adress {align-items:flex-start;}
 .span{align-items: flex-end;}
+
+.gallery{display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.preview{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+comp-content{text-align: center;}
