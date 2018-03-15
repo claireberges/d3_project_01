@@ -5,10 +5,23 @@
     <title>It's me Claire</title>
     <link rel="stylesheet" href="styles/main.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display" rel="stylesheet"></link>
+
+
+    <link rel="stylesheet" href="styles/colorbox.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="scripts/jquery.lettering.js"></script>
+      <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/jquery.colorbox-min.js"></script>
   </head>
   <body>
 
     <header>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+        <script src="scripts/jquery.min.js"></script>
+      <script src="scripts/jquery.colorbox-min.js"></script>
       <div class="header-content-block">
         <h1>Claire Bergès</h1>
         <p>"Plus rapide qu'un teckel, plus fort qu'un bretzel"</p>
@@ -29,25 +42,25 @@
 
 <section id="comp">
 <h2>Compétences</h2>
+
+
 <div class="section-content">
   <div class="comp-content">
   <h2>Photographie</h2>
-  <img src="images/image01.jpg" alt="this is a competence picture" />
-<p>Je réalise des shooting photo de mode ou de magasin aunsi que des photographies d'évênements comme des mariages ou des défilés. </p>
 
-</div>
-  <div class="comp-content">
+
+  <a class='gallery' href='images/image01.jpg'>
+      <img src="images/image01.jpg" alt="this is a competence picture"class="preview">
+</a><p>Je réalise des shooting photo de mode ou de magasin aunsi que des photographies d'évênements comme des mariages ou des défilés. </p>
   <h2>Graphisme</h2>
-  <img src="images/image02.jpg" alt="this is a competence picture" />
-  <p>Je réalise des mises en pages, des affiches ou des illustrations selon les demandes.</p>
+<a class='gallery' href='images/image02.jpg'>
+    <img src="images/image02.jpg" alt="this is a competence picture"class="preview">
+</a> <p>Je réalise des mises en pages, des affiches ou des illustrations selon les demandes.</p>
+<h2>Montage photo</h2>
+<a class='gallery' href='images/image03.jpg'>
+    <img src="images/image03.jpg" alt="this is a competence picture"class="preview">
+</a><p>Je réalise des montages photographique à partir d'image, créant parfois un univers féériques.</p>
 
-</div>
-  <div class="comp-content">
-  <h2>Montage photo</h2>
-  <img src="images/image03.jpg" alt="this is a competence picture" />
-  <p>Je réalise des montages photographique à partir d'image, créant parfois un univers féériques.</p>
-
-</div>
 </div>
 </section>
 
@@ -91,6 +104,10 @@
                      <a href="#">OITNB</a>
                    </h2> </div>
                  </section>
+
+                 <script>
+                 $('a.gallery').colorbox({rel:'gal'});
+                 </script>
 
     <footer>
       <div class="address">
